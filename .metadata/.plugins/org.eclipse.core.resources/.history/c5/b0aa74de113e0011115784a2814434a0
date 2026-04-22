@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Spring Boot App</title>
+    <link rel="stylesheet" type="text/css" href="/css/studentStyles.css">
+</head>
+<body>
+  <b><h1>Hello Student!</h1></b>
+    
+</body>
+</html>

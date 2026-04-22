@@ -1,0 +1,14 @@
+body {
+    background-color: lightgreen;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: darkgrey;
+    text-align: center;
+	font-size: large;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
