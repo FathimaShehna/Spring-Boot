@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<h1>Details of the Book</h1>
+		<ul>
+			<li>Title: <span th:text="${books.title}"></span></li>
+			<li>Author: <span th:text="${books.author}"></span></li>
+			 <li>Price:<span th:text="${books.price}"></span></li> 
+		</ul>
+		<div th:replace="navigation :: navigation"></div>
+				    <div th:replace="footer :: footer"></div>
+	</body>
+</html>
