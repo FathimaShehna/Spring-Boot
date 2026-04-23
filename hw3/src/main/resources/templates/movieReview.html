@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<h1 th:text = "${title}"></h1>
+		<h2 th:text = "${shortDesc}"></h2>
+		
+		<div th:if = "${isLoggedIn}" >
+			<h2 th:text = "${fullDesc}"></h2>
+		</div>
+		
+		<div th:if = "${!isLoggedIn}" >
+			<h3 th:text = "${message}"></h3>		
+				</div>
+	</body>
+</html>
