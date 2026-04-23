@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<h1 th:text = "${welcome}"></h1>
+		<a th:href="@{/productDetails}">Product Details</a>
+		<div th:replace="navigation :: navigation"></div>
+		    <div th:replace="footer :: footer"></div>
+	</body>
+</html>
