@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 		
 		@GetMapping("/form")
 		
-		public String processForm(@RequestParam(required=false) String userName, Model model) {
+		public String processForm(@RequestParam(required=true) String userName, Model model) {
 			
 			model.addAttribute("userName", userName);
 			return "userForm";
