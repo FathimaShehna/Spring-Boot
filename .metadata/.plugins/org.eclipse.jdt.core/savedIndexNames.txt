@@ -1,6 +1,5 @@
 INDEX VERSION 1.134+C:\Users\Windows 10\Documents\workspace-spring-tools-for-eclipse-5.1.1.RELEASE\.metadata\.plugins\org.eclipse.jdt.core
 759314198.index
-3164082800.index
 4272231686.index
 2664476364.index
 3376702697.index
@@ -9,9 +8,7 @@ INDEX VERSION 1.134+C:\Users\Windows 10\Documents\workspace-spring-tools-for-ecl
 700073421.index
 3793326037.index
 1072625796.index
-3713765177.index
 1865797976.index
-809848444.index
 928926456.index
 2850082689.index
 1114311338.index
@@ -20,9 +17,7 @@ INDEX VERSION 1.134+C:\Users\Windows 10\Documents\workspace-spring-tools-for-ecl
 3623557781.index
 1828582851.index
 3683767120.index
-4277911004.index
 3630294765.index
-601906950.index
 1219249507.index
 4019395535.index
 1190870037.index
@@ -32,18 +27,15 @@ INDEX VERSION 1.134+C:\Users\Windows 10\Documents\workspace-spring-tools-for-ecl
 753088080.index
 2620941534.index
 465661936.index
-1271685962.index
 2029855736.index
 1235193654.index
 2621076958.index
 3132403014.index
-2115286461.index
 3814913806.index
 1324501807.index
 2798031927.index
 1849994684.index
 1025185693.index
-2765975876.index
 1817959597.index
 1989357673.index
 1798830910.index
@@ -54,14 +46,11 @@ INDEX VERSION 1.134+C:\Users\Windows 10\Documents\workspace-spring-tools-for-ecl
 829994288.index
 2493251905.index
 972389305.index
-2791604587.index
 1069944983.index
 105201968.index
 758693700.index
 4286461701.index
 3355310667.index
-3438933604.index
-3042378820.index
 2606080199.index
 2228528695.index
 920879552.index
@@ -74,18 +63,16 @@ INDEX VERSION 1.134+C:\Users\Windows 10\Documents\workspace-spring-tools-for-ecl
 2547513891.index
 3499548300.index
 2948552741.index
-1653901249.index
 1363582607.index
 2608558935.index
 4145267273.index
 3946796104.index
-2046880426.index
-1316373299.index
 1557083271.index
 2046647504.index
 39645565.index
 4090321698.index
 2124480099.index
+3964833873.index
 847837461.index
 3692243406.index
 2811358746.index
@@ -93,4 +80,3 @@ INDEX VERSION 1.134+C:\Users\Windows 10\Documents\workspace-spring-tools-for-ecl
 2592248470.index
 2822825283.index
 2766345720.index
-2514804950.index
