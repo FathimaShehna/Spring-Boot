@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile Phones List</title>
+</head>
+<body>
+
+<h2>Total Number of Phones</h2>
+
+<table border="1">
+    <tr>
+        <th>Type</th>
+        <th>Count</th>
+		
+    </tr>
+
+    <tr th:each="row : ${mobileList}">
+        <td th:text="${row[0]}"></td>
+        <td th:text="${row[1]}"></td>
+    </tr>
+
+</table>
+
+</body>
+</html>

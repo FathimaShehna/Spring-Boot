@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile Phones List</title>
+</head>
+<body>
+
+<h2>Mobiles that costs less than 20,000</h2>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Brand</th>
+		<th>Type</th>
+        <th>Price</th>
+		
+    </tr>
+
+    <tr th:each="m : ${mobileList}">
+        <td th:text="${m.id}"></td>
+        <td th:text="${m.name}"></td>
+        <td th:text="${m.brand}"></td>
+		<td th:text="${m.type}"></td>
+        <td th:text="${m.price}"></td>
+    </tr>
+
+</table>
+
+<a href="/mobiles/mobilesByPrice/mobilesByType">Next</a>
+
+</body>
+</html>
