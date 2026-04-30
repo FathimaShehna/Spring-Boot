@@ -5,7 +5,7 @@ import com.example.myapp.Repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import com.example.myapp.Models.ProductModel; 
+import com.example.myapp.Models.Product; 
 @Controller
 public class ProductController {
 
@@ -17,9 +17,9 @@ public class ProductController {
 	@Autowired
 	private ProductRepository productRepository;
 	@PostMapping("/save-product")
-	public String Product(ProductModel productData,Model model) {
+	public String Product(Product productData,Model model) {
 	    
-	    ProductModel n = new ProductModel();
+	    Product n = new Product();
 	    n.setName(productData.getName());
 	    n.setDescription(productData.getDescription());    
 	    n.setPrice(productData.getPrice()); 

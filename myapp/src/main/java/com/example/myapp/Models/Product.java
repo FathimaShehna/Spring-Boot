@@ -4,13 +4,15 @@ import jakarta.persistence.Id;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 @Entity 
-public class ProductModel {
+public class Product {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     public Integer id;
     private String name;
     private String description;
     private Float price;
+    private String expiryDate;
+    
 	
     public void setId(Integer id) {
         this.id = id;
@@ -37,4 +39,14 @@ public class ProductModel {
     public void setPrice(Float price) {
         this.price = price;
     }
+
+	public String getExpiryDate() {
+		return expiryDate;
+	}
+
+	public void setExpiryDate(String expiryDate) {
+		this.expiryDate = expiryDate;
+	}
+
+	
 }
