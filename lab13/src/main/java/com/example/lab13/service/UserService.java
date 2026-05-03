@@ -19,7 +19,7 @@ public class UserService{
     private UserRepository userRepository;
 
     public User save(UserDto userDto) {
-        User user = new User(userDto.getName(), passwordEncoder.encode(userDto.getPassword()) , userDto.getEmail());
+        User user = new User(userDto.getName(),userDto.getEmail(),passwordEncoder.encode(userDto.getPassword()));
         return userRepository.save(user);
     }
 }
